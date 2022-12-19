@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freinds - Kokoa Clone</title>
+
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>19:83</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fa-solid fa-circle-info"></i>
+        Bears' Names Display 
+        <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/6.jpg"
+                class="user-component__avatar" class="user-component__avatar--xl"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">철웅이</h4>
+                    <!-- <h6 class="user-component__subtitle"> this text whatever</h6>-->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://search.pstatic.net/common?type=o&size=150x112&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fkeypage%2Fimage%2Fdss%2F146%2F48%2F41%2F02%2F146_2484102_team_image_url_1484020358624.jpg" 
+                    class="user-component__avatar user-component__avatar--sm"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Friends</span>
+                <i class="fa-solid fa-chevron-up fa-xs"></i>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://w.namu.la/s/7f666a0389cf6f2807b7a18aa4634d9a559a541f826d6f96766d9694d9a4dcc9884cc3635c0bc04b3dc2d4b10b99419c1fcb6f0179f478b05589912128c2ce6f698f437ecef3e89735ca32bd3d9576ebbaa939dba211f4cb577633f02e1d92dca13b8ea90fc060185c866e9963601e8d" 
+                    class="user-component__avatar user-component__avatar--sm"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">호돌이</h4>
+                        </div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/bleo.jpg" 
+                    
+                    class="user-component__avatar user-component__avatar--sm"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">블레오</h4>
+                        </div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/ssg.jpg" 
+                    
+                    class="user-component__avatar user-component__avatar--sm"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">랜디</h4>
+                        </div>
+                </div>
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/한화.jpg" 
+                    
+                    class="user-component__avatar user-component__avatar--sm"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">위니</h4>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link icon__bat" href="friends.html">
+                    <i class="fa-solid fa-baseball-bat-ball fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link icon__baseball" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-baseball fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <i class="fa-solid fa-baseball splash__icon"></i>
+    </div>
+
+    <div id="no-mobile">
+        Your screen is Too Big
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/5bd32e7d82.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,130 @@
+#chat-screen{
+    background-color:lightskyblue;
+    height: 80vh;
+}
+.alt-header{
+    background-color:lightskyblue;
+    position: fixed;
+    top:5px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.status-bar{
+    z-index: 2;
+}
+.main-chat{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat__timestamp{
+    color: white;
+    background-color: #92a4b2;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+.message-row img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.message__author {
+    opacity: 0.8;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+.message__info{
+    display: flex;
+    align-items: flex-end;
+}
+.message__bubble{
+    background-color: white;
+    padding: 13px;
+    border-radius: 15px;
+    font-size: 18px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+}
+.message__time{
+    opacity: 0.8;
+    font-size: 14px;
+}
+.message-row--own{
+    justify-content: flex-end;
+}
+.message-row--own .message__bubble{
+    background-color: var(--navy);
+    border-radius: 15px;
+    border-top-right-radius: 0px ;
+    margin-left: 5px;
+}
+.message-row--own .message__bubble{
+    color: white;
+}
+.message-row--own .message__info{
+    flex-direction: row-reverse;
+}
+
+.reply{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.reply i{
+    opacity: 0.6;
+}
+.reply .reply__column:first-child{
+    width: 10%;
+}
+.reply .reply__column:last-child{
+    width: 90%;
+    position: relative;
+}
+.reply input{
+    padding: 10px;
+    width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+}
+.reply__column:last-child >  i,
+.reply__column:last-child button{
+    position: absolute;
+    right: -3px;
+    top: 2px;
+}
+.reply__column:last-child > i{
+    right: 40px;
+    top: 17px;
+}
+.reply__column button{
+    background-color: var(--navy);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+.reply__column button i{
+    opacity: 1;
+}
+.reply__column button:focus,
+.reply__column button:active{
+    outline: none;
+}

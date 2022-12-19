@@ -1,0 +1,38 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--horizontal-space);
+    align-items: center;
+    color: var(--navy);
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--navy);
+}
+.screen-header__icons span{
+    margin-left: 25px;
+}
+
+@keyframes sizeIcon{
+    from{
+        transform: none;
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.screen-header__icons .fa-gear:hover{
+    animation: sizeIcon 0.2s linear forwards;
+}
+.screen-header__icons .fa-music:hover{
+    animation: sizeIcon 0.2s linear forwards;
+}
+.screen-header__icons .fa-magnifying-glass:hover{
+    animation: sizeIcon 0.2s linear forwards;
+}
+.screen-header__icons .fa-comment-medical:hover{
+    animation: sizeIcon 0.2s linear forwards;
+}

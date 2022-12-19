@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Clone</title>
+
+</head>
+<body class="find">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>19:83</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-brands fa-bimobject"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended friends</h6>
+            <span>You have no recommended friends</span>
+        </div>
+
+        <div class="news">
+            <div class="news__header">
+                <h4>NEWS</h4>
+                <span>Go to News Home
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+            <div class="news-post">
+                <div class="news-post__column">
+                    <h5 class="news-post__title">양의지</h5>
+                    <h6 class="news-post__content"> 6년 총액 152억원 계약 </h6>
+                    <div class="news-post__like">
+                        243,234 likes
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+                <div class="news-post__column">
+                    <img src="https://w.namu.la/s/3d12ae43ae8d6a9bdf7f33609b399e7d3ee3901065ab5b4aed688f594ac8d5a39d2bb24dd6fba4d1353feface41e17ef94f55a6d4f3587365190f6c0eea9af963e4cb9632c194a16c378abed80c304559d645c0cd4132625b6c753d0c1011ba2e7e495a0ed702ba6cbd59555c6ceff36" 
+                    width="70px" height="90px"
+                    class="news-post__photo">
+                </div>
+            </div>
+            <div class="news-post">
+                <div class="news-post__column">
+                    <h5 class="news-post__title">이승엽</h5>
+                    <h6 class="news-post__content"> 2023년 두산 감독 부임 </h6>
+                    <div class="news-post__like">
+                        183,235 likes
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+                <div class="news-post__column">
+                    <img src="https://w.namu.la/s/64f287d5dd2157bda897a9e2b1f446dcef16ee37e12a0cf47918e51c43146a30eed2b091cec9640cebb6d8e1280857f6cbdb4e6b13527c824ed05ee3d3aa055108d0293dc5af7360015aec7397edd3b4dcfbc359cc8fb3f7c98174832df944c3aa911645e83b2baa1a7f50cc122f63fd" 
+                    width="70px" height="90px"
+                    class="news-post__photo">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-baseball-bat-ball fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link " href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-baseball fa-2x"></i>
+
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link icon__search" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        Your screen is Too Big
+    </div>
+
+    <script src="https://kit.fontawesome.com/5bd32e7d82.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>

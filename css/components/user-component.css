@@ -1,0 +1,55 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child{
+    display: flex;
+    align-items: center;
+}
+.user-component__avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px ;
+    margin-right: 20px ;
+}
+.user-component__title{
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--navy);
+}
+.user-component__subtitle{
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+.user-component__avatar--xl{
+    width: 80px;
+    height: 80px;
+}
+.user-component__avatar--sm{
+    width: 60px;
+    height: 50px;
+}
+.user-component__title--not-bold{
+    font-weight: 400;
+}
+.user-component{
+    margin: 20px 0px;
+}
+.user-component__time{
+    margin-top: 10px;
+}
+.user-component__time-text{
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.fa-circle-exclamation{
+    color: tomato;
+}
+.fa-message{
+    color: var(--navy);
+}
