@@ -29,20 +29,18 @@ input:focus{
 }
 .login-form__btn{
     color: white;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 #login-form .login-form__btn{
     background-color: var(--navy);
     cursor: pointer;
-    padding: 20px 190px;
-    width: 15%;
+    padding: 20px 5px;
     border-radius: 10px;
+    width: 100%;
 }
-
 .find{
     text-align: center;
     text-decoration: none;
     color: inherit;
     font-size: 13px;
-} 
+}
