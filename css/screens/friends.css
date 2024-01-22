@@ -1,3 +1,6 @@
+.hello{
+    height: 100vh;
+}
 #friends-display-link{
     text-align: center;
     display: block;
@@ -43,7 +46,7 @@
 #splash-screen{
     background-color: var(--navy);
     position: absolute;
-    height: 105vh;
+    height: 120vh;
     width: 100vw;
     top: 0px;
     display: flex;
