@@ -12,22 +12,30 @@
 
 <br/>
 
-# 시작 가이드
-## 요구사항
-클론해서 실행하려고 할때 필요한 요구사항과 버전
+# Guide
 
-## 설치 및 실행
-레포지토리를 클론하고, 패키지 설치, 환경변수 설정, 실행하는 과정에 대한 내용을 코드로 적는다
+### Installation
+```
+$ git clone https://github.com/yun0727/kokoa-clone-2022.git
+```
 
-# 03 기술 스택
-사용한 기술 스택
-Environment
-Config
-Development
-Communication
+<br/>
 
-# 04 주요 기능
-프로젝트의 주요 기능 소개
+# Stacks
+### Environment
+<img src="https://img.shields.io/badge/visual studio code-007acc?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white" />
 
-# 05 아키텍처
-프로젝트의 아키텍처와 디렉토리 구조에 대해 작성
+### Development
+<img src="https://img.shields.io/badge/html5-e34f26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/css3-1572b6?style=for-the-badge&logo=css3&logoColor=white" />
+
+### Deploy
+<img src="https://img.shields.io/badge/github pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" />
+
+<br/>
+
+# 주요 기능
+* BEM을 이용하여 CSS 코드 구성하고 유지, 관리
+* Media Query 사용하여 반응형 웹페이지로 구현
+* FontAwesome으로 다양한 아이콘 구현
